@@ -31,6 +31,4 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("marketname"), "Infinix NOTE 12 2023");
         property_override(string("ro.product.system.") + prop + string("device"), "Infinix NOTE 12 2023");
     }
-    property_override("ro.bootimage.build.date.utc", "1609430400");
-    property_override("ro.build.date.utc", "1609430400");
 }
